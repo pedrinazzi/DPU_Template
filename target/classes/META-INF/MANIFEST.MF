@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1416319697733
+Build-Jdk: 1.7.0_71
+Build-Time: 20141118-1508
+Built-By: laurapedrinazzi
+Bundle-Description: Extract local file or directory.
+Bundle-License: https://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: E-DpuTemplate
+Bundle-SymbolicName: eu.unifiedviews.plugins.dpu-template
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DPU-MainClass: DPUTemplate
+DPU-Package: eu.unifiedviews.plugins.dputemplate
+Embed-Dependency: *;scope=compile|runtime
+Embed-Directory: dependency
+Embed-StripGroup: false
+Embed-Transitive: false
+Export-Package: eu.unifiedviews.plugins.dputemplate;uses:="eu.unifiedvie
+ ws.dataunit.rdf,eu.unifiedviews.dataunit.files,eu.unifiedviews.dpu,eu.u
+ nifiedviews.helpers.dpu.config,eu.unifiedviews.dataunit,eu.unifiedviews
+ .dpu.config";version="1.0.0.SNAPSHOT"
+Import-Package: eu.unifiedviews.dataunit;version="[1.0,2)",eu.unifiedvie
+ ws.dataunit.files;version="[1.0,2)",eu.unifiedviews.dataunit.rdf;versio
+ n="[1.0,2)",eu.unifiedviews.dpu;version="[1.0,2)",eu.unifiedviews.dpu.c
+ onfig;version="[1.0,2)",eu.unifiedviews.helpers.dpu.config;version="[1.
+ 0,2)"
+Tool: Bnd-1.50.0
