@@ -60,7 +60,7 @@ This template is intended to be used for describing UnifiedViews plugins as READ
 
 ***
 
-### Developer's notes ###
+### Developer's notes    ###
 
 |Author            |Notes                 |
 |------------------|----------------------|
