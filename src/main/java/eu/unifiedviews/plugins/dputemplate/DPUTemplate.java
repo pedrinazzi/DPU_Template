@@ -17,6 +17,14 @@ public class DPUTemplate extends ConfigurableBase<DPUTemplateConfig_V1> implemen
 // and remove getConfigurationDialog function
 //public class DPUTemplate implements DPU {
 
+    // If you do not want the dialog, use the following DPU declaration
+    // and remove getConfigurationDialog function
+    //public class DPUTemplate implements DPU {
+    
+    
+    // If you do not want the dialog, use the following DPU declaration
+    // and remove getConfigurationDialog function
+    //public class DPUTemplate implements DPU {
     @DataUnit.AsInput(name = "input")
     public RDFDataUnit rdfInput;
 
